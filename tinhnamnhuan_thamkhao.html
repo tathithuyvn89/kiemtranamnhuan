@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính năm nhuận</title>
+</head>
+<body>
+<script>
+
+    let year = parseInt(prompt(" Enter a year: "));
+
+    if (year%400===0){
+        alert ("Year number " + year + " is a leap year" ); //Chia het cho 4 , chia het cho 100, chia het cho 100
+    } else if (year%100===0) {
+        alert("Year number " + year+ " is not a leap year");
+    } else if (year%4===0){
+        alert("Year number " + year+ " is a leap year")
+    } else {
+        alert("Year number " + year+ " is not a leap year")
+    }
+
+
+
+</script>
+</body>
+</html>
